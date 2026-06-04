@@ -1,0 +1,88 @@
+<html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Cards</title>
+    <style>
+        
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+        }
+
+
+        .card-container {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap; 
+        }
+
+        .card {
+            background-color: #ffffff;
+            width: 250px;
+            
+            margin: 15px; 
+            
+            padding: 25px; 
+            
+            border: 2px solid #a51da5; 
+            border-radius: 8px;
+            
+            text-align: center;
+            cursor: pointer;
+            transition: all 0.2s ease-in-out; 
+        }  
+        .card:hover {
+           
+            background-color: #e0f2fe; 
+            
+            
+            border: 6px solid #0284c7; 
+            
+            
+            padding: 21px; 
+        }
+
+        .card h3 {
+            margin-top: 0;
+            color: #333;
+        }
+
+        .card p {
+            color: #666;
+            line-height: 1.5;
+            margin-bottom: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="card-container">
+        <div class="card">
+            <h3>Card One</h3>
+            <p>sumu beby lode chito baby.</p>
+        </div>
+
+        <div class="card">
+            <h3>Card Two</h3>
+            <p>sumu beby janeman bar lodu.</p>
+        </div>
+
+        <div class="card">
+            <h3>Card Three</h3>
+            <p>sumu beby 3 bar lodu kamini beby ha sumu.</p>
+        </div>
+    </div>
+
+</body>
+</html>
